@@ -1,0 +1,95 @@
+body {
+    font-family: garamond;
+    text-align: center;
+    background: linear-gradient(#090f13, #794b2f, #090f13);
+    color: #ebe09c;
+    text-shadow: 0px 0px 5px black;
+}
+
+#image {
+    width: 300px;
+    border-radius: 50%;
+    border: 6px solid #ebe09c;
+}
+
+#birth {
+    background: #794b2f;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#study {
+    background: #794b2f;
+    padding: 5px 10px;
+    margin: 0px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-section {
+    margin-top: 25px;
+}
+
+.book-title {
+    margin-bottom: 10px;
+}
+
+.book-hint {
+    margin-top: 0px;
+}
+
+.book-cover {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#last-book-cover {
+    height: 200px;
+    width: 300px;
+}
+
+#book-cover1:hover {
+    background-image: url("images/aiq.jpg");
+}
+
+#book-cover2:hover {
+    background-image: url("images/akh.jpg");
+}
+
+#book-cover3:hover {
+    background-image: url("images/fah.jpg");
+}
+
+#book-cover4 {
+    height: 300px;
+    width: 450px;
+}
+
+#book-cover4:hover {
+    background-image: url("images/jmr.jpg");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: #ebe09c;
+}
+
